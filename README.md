@@ -14,6 +14,6 @@ Add it will successfully remove noise from the provided video and generate a new
 
 Advantages: Normally it takes 4 to 5 hours to remove noise from a video as first you have to split audio and video, 
 then remove noise from the audio then merge audio and video back. But this method is faster and it lowers the time from 4-8 hours to 1-2 hours per video
-(assuming the video is more than an hour long). And it does all of it in one go. The time to generate the video is much shorter as compared to some video editors these days.
+(assuming the video is more than an hour long). And it does all of it in one go. The time to generate the video is much shorter as compared to some conventional video editors these days.
 
 Disadvantages: It might not remove all the noise as it generally assumes noise levels and reduces the noise.
