@@ -1,6 +1,6 @@
 # Audio Denoiser from Video
 
-Hello! This is a basic noise removing script using Python. 
+Hello! This is a basic noise removing script that uses Python. 
 
 It uses noisereduce library to reduce the noise from the audio and moviepy library to merge audio and video.
 
