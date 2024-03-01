@@ -1,4 +1,4 @@
-#Audio Denoiser from Video
+# Audio Denoiser from Video
 
 Hello! This is a basic noise removing script using Python. 
 
@@ -18,22 +18,22 @@ Here is the Noisy Audio Plot:
 And here is the Denoised Audio Plot:
 ![alt text](https://github.com/WaqarAnwar/Audio_Noise_Remover_from_Video-Python/blob/main/DenoisedAudioPlot.PNG?raw=true)
 
-##Usage
+## Usage
 
 Make virtual environment and then activate that virtual environment.
 
 Then run:
-```
+```bash
   pip install -r requirements.txt
 ```
 Then copy your video to the current directory where these files are located.
 
 Then to remove noise from a video "video.mp4", run:
-```
+```bash
   python noise_remover.py "video.mp4"
 ```
 And it will successfully remove noise from the provided video and generate a new denoised video.
 
-##Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
