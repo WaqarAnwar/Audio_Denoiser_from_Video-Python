@@ -18,10 +18,11 @@ It might not remove all the noise as it generally assumes noise levels and reduc
 Also sometimes the audio and video go out of sync after 45 minutes if the video
 is more than 45 minutes long. This is due to moviepy library not merging the audio and video correctly.
 
-Here is the Noisy Audio Plot:
+
+### Noisy Audio Plot:
 ![alt text](https://github.com/WaqarAnwar/Audio_Noise_Remover_from_Video-Python/blob/main/NoisyAudioPlot.PNG?raw=true)
 
-And here is the Denoised Audio Plot:
+### Denoised Audio Plot:
 ![alt text](https://github.com/WaqarAnwar/Audio_Noise_Remover_from_Video-Python/blob/main/DenoisedAudioPlot.PNG?raw=true)
 
 ## Usage
