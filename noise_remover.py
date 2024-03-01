@@ -20,8 +20,7 @@ def removeNoise(video_file):
     data = np.reshape(data, (2, -1)) 
     reduced_noise = nr.reduce_noise(
     y=data,
-    sr=rate,
-    stationary=True
+    sr=rate
     )
 
     #write deniosed audio to temp file
