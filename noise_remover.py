@@ -6,7 +6,7 @@ import noisereduce as nr
 import numpy as np
 
 def removeNoise(video_file):
-    #get video file
+    # get video file
     clip = mp.VideoFileClip(video_file)
     
     #save audio from that video file
@@ -23,22 +23,22 @@ def removeNoise(video_file):
     sr=rate
     )
 
-    #write deniosed audio to temp file
+    # write deniosed audio to temp file
     wavfile.write("temp_denoised.wav", rate, reduced_noise.reshape(orig_shape))
 
-    #get audio from saved file
+    # get audio from saved file
     audio = mp.AudioFileClip('temp_denoised.wav')
 
-    #merge denoised audio and video
+    # merge denoised audio and video
     final_video = clip.set_audio(audio)
 
-    #get file name from filename and its extension
+    # get file name from filename and its extension
     filename, ext = os.path.splitext(video_file)
 
-    #write the video file
+    # write the video file
     final_video.write_videofile(f"{filename} denoised.mp4")
 
-    #remove recently generated unnecessary files
+    # remove recently generated unnecessary files
     os.remove('temp.wav')
     os.remove('temp_denoised.wav')
 
